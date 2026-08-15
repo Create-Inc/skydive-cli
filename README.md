@@ -2,7 +2,7 @@
 
 # Skydive CLI issues
 
-This repository tracks bugs and feature requests for the [Skydive CLI](https://skydive.com/docs/cli/overview).
+This repository tracks bugs and feature requests for the [Skydive CLI](https://skydive.com/cli).
 
 - [Report a CLI bug](https://github.com/Create-Inc/skydive-cli/issues/new?template=bug-report.yml)
 - [Request a CLI feature](https://github.com/Create-Inc/skydive-cli/issues/new?template=feature-request.yml)
