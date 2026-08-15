@@ -1,0 +1,54 @@
+name: Bug report
+description: Report unexpected Skydive CLI behavior
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Run `skydive logs export` after the issue occurs, then attach the archive below.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Tell us what you expected and what happened instead.
+      placeholder: I expected... Instead...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the commands or actions that reproduce the issue.
+      placeholder: |
+        1. Run...
+        2. Select...
+        3. See...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: CLI version
+      description: Run `skydive --version`.
+      placeholder: 0.4.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Linux
+        - Windows
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostic archive
+      description: Drag the `.tar.gz` from `skydive logs export` here. Review it before upload if the session contains sensitive work.
+      placeholder: Attach the archive here.
