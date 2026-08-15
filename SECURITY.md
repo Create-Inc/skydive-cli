@@ -2,4 +2,4 @@
 
 Do not report security vulnerabilities in public issues.
 
-Email security@anything.com with a description, reproduction steps, and affected versions. Do not attach diagnostic archives until the security team asks for them.
+Use this repository's **Security** tab to report a vulnerability privately. Include a description, reproduction steps, and affected versions. Do not attach diagnostic archives until the security team asks for them.
