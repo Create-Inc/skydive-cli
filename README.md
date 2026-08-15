@@ -1,3 +1,5 @@
+<img src="assets/skydive-banner.png" alt="Skydive" width="100%">
+
 # Skydive CLI issues
 
 This repository tracks bugs and feature requests for the [Skydive CLI](https://skydive.com/docs/cli/overview).
